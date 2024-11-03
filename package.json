@@ -1,0 +1,30 @@
+{
+  "name": "@csduck/enum",
+  "version": "1.0.0",
+  "description": "A simple utility to define enums",
+  "main": "src/index.js",
+  "types": "types",
+  "scripts": {
+    "test": "jest",
+    "document": "./node_modules/.bin/jsdoc -c jsdoc.json",
+    "build:types": "npx -p typescript tsc src/*.js --declaration --allowJs --emitDeclarationOnly --outDir types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosisms/csduck-enum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yosisms/csduck-enum/issues"
+  },
+  "homepage": "https://github.com/yosisms/csduck-enum#readme",
+  "author": "Yosi Shemesh",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdoc": "^4.0.4",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [
+    "enum"
+  ]
+}
